@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="hu">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>FadeLab – foglalási app fodrászatoknak és barbereknek</title>
+<meta name="description" content="A FadeLab foglalási app fodrászatoknak és barbereknek: online időpontfoglalás, várólista, csapatnaptár, emlékeztetők, hűségprogram és statisztika egy helyen.">
+<meta property="og:title" content="FadeLab – a szalonod, rendben.">
+<meta property="og:description" content="Foglalási app fodrászatoknak és barbereknek.">
+<meta property="og:image" content="logo.png">
+<link rel="icon" type="image/png" href="logo.png">
+<link rel="apple-touch-icon" href="logo.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500;1,600&family=Lato:wght@400;700;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<a class="skip" href="#tartalom">Ugrás a tartalomra</a>
+
+<header class="wrap nav">
+  <a class="brand" href="./" aria-label="FadeLab főoldal">
+    <img src="logo.png" alt="" width="36" height="36">
+    <span>FadeLab</span>
+  </a>
+  <nav class="nav-links" aria-label="Főmenü">
+    <a href="#funkciok">Funkciók</a>
+    <a href="#szalonoknak">Szalonoknak</a>
+    <a href="#arak">Árak</a>
+    <a href="#kapcsolat">Kapcsolat</a>
+  </nav>
+</header>
+
+<main id="tartalom">
+  <section class="wrap hero">
+    <p class="kicker">Foglalási app · fodrászatoknak és barbereknek</p>
+    <h1>A szalonod,<br><em>rendben.</em></h1>
+    <div class="hero-row">
+      <p>A vendégeid pár koppintással foglalnak. Te egy naptárban látod a csapatot, a várólistát és a bevételt — hívások és füzet nélkül.</p>
+      <div class="stores">
+        <!-- Kiadás után: href="https://apps.apple.com/..." és vedd ki az aria-disabled-et -->
+        <a class="btn" aria-disabled="true">App Store · hamarosan</a>
+        <!-- Kiadás után: href="https://play.google.com/store/apps/details?id=com.nakamoto94.szalonapp" -->
+        <a class="btn btn-dark" aria-disabled="true">Google Play · hamarosan</a>
+      </div>
+    </div>
+  </section>
+
+  <div class="band" aria-hidden="true">
+    <div class="wrap"><p>Foglalás · Várólista · Csapatnaptár · Emlékeztetők · Hűségprogram · Statisztika</p></div>
+  </div>
+
+  <section id="funkciok" class="wrap features">
+    <h2>Amit a FadeLab elvégez helyetted</h2>
+    <ol class="feature-list">
+      <li><span class="num" aria-hidden="true">01</span><div><h3>Foglalás pár koppintással</h3><p>Szolgáltatás, fodrász, időpont — kész. Hívás és várakozás nélkül.</p></div></li>
+      <li><span class="num" aria-hidden="true">02</span><div><h3>Várólista, ami magától szól</h3><p>Betelt a nap? Amint felszabadul egy hely, a vendég értesítést kap.</p></div></li>
+      <li><span class="num" aria-hidden="true">03</span><div><h3>Az egész csapat egy naptárban</h3><p>Foglalások, stáb és státuszok egyetlen pillantással.</p></div></li>
+      <li><span class="num" aria-hidden="true">04</span><div><h3>Nincs több elfelejtett időpont</h3><p>A foglalás bekerül a vendég naptárába, és a telefonja időben szól.</p></div></li>
+      <li><span class="num" aria-hidden="true">05</span><div><h3>Hűségprogram</h3><p>Saját szabály — a pecsétek minden látogatással maguktól gyűlnek.</p></div></li>
+      <li><span class="num" aria-hidden="true">06</span><div><h3>Statisztika és riport</h3><p>Bevétel, foglalások, csapat — és egy kattintással PDF riport.</p></div></li>
+    </ol>
+  </section>
+
+  <section id="szalonoknak" class="steps">
+    <div class="wrap">
+      <h2>Szalontulajként <em>három lépés</em> az első foglalásig.</h2>
+      <div class="step-grid">
+        <div class="step"><p class="kicker">Első</p><h3>Regisztrálj</h3><p>Töltsd le az appot, és hozd létre a szalonod fiókját.</p></div>
+        <div class="step"><p class="kicker">Második</p><h3>Állítsd be</h3><p>Szolgáltatások, árak, nyitvatartás — a fodrászokat meghívó kóddal hívod be.</p></div>
+        <div class="step"><p class="kicker">Harmadik</p><h3>Oszd meg a kódot</h3><p>A vendégeid a hatjegyű foglalási kóddal csatlakoznak.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="arak" class="wrap pricing">
+    <p class="kicker">Árak</p>
+    <p class="price">75 €<small> / hó</small></p>
+    <p class="lead">Egy csomag, minden funkcióval. 14 napig ingyen kipróbálhatod — a vendégeidnek az app mindig ingyenes.</p>
+    <!-- Ha megvan a Stripe Payment Link, ide jöhet: <a class="btn btn-dark" href="https://buy.stripe.com/...">Előfizetés</a> -->
+    <a class="btn btn-dark" href="#tartalom">Töltsd le, és próbáld ki 14 napig ingyen</a>
+  </section>
+</main>
+
+<footer id="kapcsolat" class="footer">
+  <div class="wrap">
+    <h2>Írj nekünk.</h2>
+    <a class="mail" href="mailto:quantumdeveloper2026@gmail.com">quantumdeveloper2026@gmail.com</a>
+    <div class="footer-bottom">
+      <span>© 2026 Balog Dávid · Budapest</span>
+      <nav aria-label="Jogi információk">
+        <a href="adatvedelem.html">Adatvédelem</a>
+        <a href="aszf.html">ÁSZF</a>
+        <a href="fiok-torlese.html">Fiók törlése</a>
+      </nav>
+    </div>
+  </div>
+</footer>
+</body>
+</html>
